@@ -1,1 +1,197 @@
-{}
+{
+  "components": {
+    "main_app_bar": {
+      "dashboard": "Dashboard",
+      "map": "Kaart",
+      "devices": "Apparaten",
+      "admin": "Beheerder",
+      "settings": "Instellingen",
+      "logout": "Uitloggen",
+      "connections": "Connecties"
+    },
+    "device_row": {
+      "latest_location": "Laatste locatie",
+      "locate_device": "Vind apparaat",
+      "go_to_details": "Ga naar details"
+    },
+    "map_controls": {
+      "go_to_current_location": "Ga naar huidige locatie",
+      "geolocation_error": "Kon huidige locatie niet opvragen",
+      "change_map_projection": "Wijzig de projectie van de kaart",
+      "zoom_in": "Inzoomen",
+      "zoom_out": "Uitzoomen",
+      "fit_bounds": "Maak passend",
+      "reset_heading_pitch": "Richting en toonhoogte opnieuw instellen",
+      "tune_location_settings": "Locatie-instellingen afstemmen",
+      "date": "Datum",
+      "latest_location": "Laatste locatie",
+      "range": "Bereik",
+      "export_to_gpx": "Exporteer als GPX",
+      "go_to": {
+        "first_location": "Ga naar de eerste locatie",
+        "last_location": "Ga naar de laatste locatie",
+        "next_location": "Ga naar de volgende locatie",
+        "previous_location": "Ga naar de vorige locatie"
+      },
+      "show_avatars": "Toon avatars",
+      "hide_avatars": "Verberg avatars",
+      "enable_auto_focus": "Volg de laatste locatie",
+      "disable_auto_focus": "Stop volgen van de laatste locatie"
+    },
+    "location_details": {
+      "details": "Details",
+      "latest_location": "(laatste locatie)",
+      "tooltip_labels": {
+        "timestamp": "Tijdsstempel",
+        "coordinates": "Coördinaten",
+        "accuracy": "Accuratesse",
+        "altitude": "Hoogte",
+        "speed": "Snelheid",
+        "battery": "Batterij"
+      }
+    },
+    "sort_select": {
+      "inverse_list": "Omgekeerde lijst"
+    },
+    "device_accordion": {
+      "latest_location": "Laatste locatie",
+      "see_on_map": "Bekijk op kaart"
+    },
+    "ring_device_button": {
+      "ring_sent": "Bel verstuurd",
+      "ring_queued": "Bel in de wachtrij",
+      "ring_label": "Bel",
+      "ring_tooltip": "Bel {{deviceName}}"
+    },
+    "lock_device_button": {
+      "lock_sent": "Versleuteling verstuurd",
+      "lock_queued": "Versleuteling in de wachtrij",
+      "lock_label": "Versleuteling",
+      "lock_tooltip": "Versleutel {{deviceName}}",
+      "cancel": "Annuleer",
+      "message_label": "Bericht"
+    },
+    "flash_device_button": {
+      "flash_sent": "Flits verzonden",
+      "flash_queued": "Flits in de wachtrij",
+      "flash_label": "Flits",
+      "flash_tooltip": "Flits {{deviceName}}"
+    },
+    "delete_device_button": {
+      "delete": "Verwijder",
+      "title": "Verwijder {{deviceName}}",
+      "description": "Het apparaat en alle bijbehorende gegevens worden permanent verwijderd.",
+      "cancel": "Annuleer",
+      "deleted_message": "Apparaat verwijderd"
+    },
+    "add_device_button": {
+      "add_a_device": "Voeg Apparaat toe",
+      "cancel": "Annuleer",
+      "add": "Voeg toe",
+      "device_added": "Aparaat toegevoegd",
+      "name_required": "Naam is verplicht",
+      "fields": {
+        "name": "Naam",
+        "color": "Kleur",
+        "type": "Type"
+      }
+    },
+    "edit_device_button": {
+      "title": "{{deviceName}} aanpassen",
+      "cancel": "Annuleer",
+      "save": "Opslaan",
+      "reset": "Reset",
+      "fields": {
+        "name": "Naam",
+        "color": "Kleur",
+        "can_ring": "Kan bellen",
+        "can_lock": "Kan versleutelen",
+        "can_flash": "Kan flitsen"
+      }
+    },
+    "device_icons_select": {
+      "label": "Icoon"
+    },
+    "session_list": {
+      "sessions": "Sessies",
+      "no_session": "Geen actieve sessies"
+    },
+    "session_row": {
+      "current": "Huidige sessie",
+      "last_used": "Laatst gebruikt",
+      "logout": "Uitloggen",
+      "delete_session": "Verwijder sessie"
+    },
+    "key_list": {
+      "api_keys": "API-sleutels"
+    },
+    "key_row": {
+      "copy_clipboard": "Kopiëren naar het klembord",
+      "copy_error": "API-sleutel kopiëren niet gelukt",
+      "copy_success": "Sleutel succesvol gekopieerd"
+    },
+    "delete_api_key_button": {
+      "delete": "Verwijder",
+      "cancel": "Annuleer",
+      "title": "De API-sleutel voor {{name}} verwijderen?"
+    },
+    "create_api_key_button": {
+      "create": "Creëer",
+      "cancel": "Annuleer",
+      "name": "Naam",
+      "name_required": "Naam is verplicht",
+      "title": "Creëer een API-sleutel"
+    },
+    "change_password_button": {
+      "title": "Verander wachtwoord",
+      "new_password": "Nieuw wachtwoord",
+      "new_password_confirmation": "Bevestig nieuw wachtwoord",
+      "change": "Verander",
+      "cancel": "Annuleer",
+      "password_required": "Wachtwoord is verplicht",
+      "password_confirmation_required": "Bevestiging van wachtwoord is verplicht",
+      "passwords_dont_match": "Wachtwoorden komen niet overeen"
+    },
+    "delete_user_button": {
+      "error": "Kon gebruiker niet verwijderen",
+      "title": "Verwijder {{name}}",
+      "account_title": "Verwijder Account",
+      "account_tooltip": "Verwijder account",
+      "your_account": "Jouw account",
+      "user": "Gebruiker {{name}}",
+      "description": "Deze actie is onomkeerbaar. {{name}} en alle bijbehorende gegevens worden permanent verwijderd. Weet je zeker dat je wilt doorgaan?",
+      "cancel": "Annuleer",
+      "delete": "Verwijder"
+    },
+    "devices_select": {
+      "devices": "Apparaten",
+      "categories": {
+        "personal": "Persoonlijk",
+        "shared": "Gedeeld"
+      }
+    },
+    "tier_accordion_list": {
+      "title": "Niveaus"
+    },
+    "tier_accordion": {
+      "actions": {
+        "save": "Opslaan",
+        "reset": "Opnieuw instellen"
+      }
+    },
+    "max_devices_field": {
+      "label": "Maximum apparaten",
+      "unlimited": "Ongelimiteerd"
+    },
+    "create_tier_button": {
+      "tooltip": "Creëer een niveau",
+      "title": "Creëer een Niveau",
+      "name_field": {
+        "label": "Naam"
+      },
+      "actions": {
+        "cancel": "Annuleer"
+      }
+    }
+  }
+}
